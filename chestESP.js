@@ -31,7 +31,7 @@
         document.body.append(iframe);
     }
 
-    /* By CryptoDude3 */
+    /* By CryptoDude3, enhanced by smit4k*/
     if (window.fetch.call.toString() == 'function call() { [native code] }') {
         const call = window.fetch.call;
         window.fetch.call = function () {
