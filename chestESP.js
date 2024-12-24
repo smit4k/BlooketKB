@@ -21,7 +21,7 @@
  */
 
 
-// PRESS S FOR CHESTESP TO APPEAR
+// PRESS E FOR CHESTESP TO APPEAR
 
 (() => {
     let iframe = document.querySelector("iframe");
@@ -86,10 +86,10 @@
         iframe.contentWindow.alert("It seems the GitHub is either blocked or down.\n\nIf it's NOT blocked, join the Discord server for updates\nhttps://discord.gg/jHjGrrdXP6\n(The cheat will still run after this alert)");
     };
 
-    // Add event listener for 'S' key press
+    
     document.addEventListener('keydown', function(event) {
-        if (event.key === 's' || event.key === 'S') {
-            cheat();  // Run the cheat when 'S' is pressed
+        if (event.key === 'e' || event.key === 'E') {
+            cheat();
         }
     });
 })();
