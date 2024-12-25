@@ -48,8 +48,9 @@
             if (!chest || chest.querySelector('div')) return;
             let choice = document.createElement('div');
             choice.style.color = "white";
-            choice.style.fontFamily = "Arial";
-            choice.style.fontSize = "2em";
+            choice.style.fontWeight = "700";
+            choice.style.fontFamily = "Nunito";
+            choice.style.fontSize = "1.5em";
             choice.style.display = "flex";
             choice.style.justifyContent = "center";
             choice.style.transform = "translateY(200px)";
