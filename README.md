@@ -5,4 +5,4 @@
 
 ## Changes
 - changed so that alert menus dont appear immediately
-- added sensible keybinds for scripts
+- added sensible keybinds for executing scripts
