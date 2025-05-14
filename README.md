@@ -1,6 +1,6 @@
 # BlooketKB
 - blooket utility scripts for gamemodes
-- keybindings only
+- keybindings only, **NO GUI**
 - built for stealth
 
 ## Changes
